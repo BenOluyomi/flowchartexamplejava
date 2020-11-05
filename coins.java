@@ -4,8 +4,8 @@ public class coins {
 	
 	
 	public static void main(String[] args) {
-		  int payed = 2000;
-		  int cost = 252;
+		  int payed = 5000;
+		  int cost = 2345;
 		  
 		  int change = payed - cost;
 		  
@@ -25,8 +25,12 @@ public class coins {
 		  
 		  int tenp = (newcos -change%10)/10;
 		  int newcost = newcos -tenp*10;
-		  int two = (newcost -change%2)/2;
-		  int newcosts = newcost -two*2;
+		  
+		  int five = (newcost -change%5)/5;
+		  int newcostsl = newcost -five*5;
+		  
+		  int two = (newcostsl -change%2)/2;
+		  int newcosts = newcostsl -two*2;
 		  int one = (newcosts -change%1)/1;
 		  int newcostsi = newcosts -one*1;
 		  double accchange = ((double)payed-(double)cost)/100;
@@ -37,6 +41,7 @@ public class coins {
 		  System.out.println(fiftyp+ " 50ps");
 		  System.out.println(twentyp+ " 20ps");
 		  System.out.println(tenp+ " 10ps");
+		  System.out.println(five+ " 5ps");
 		  System.out.println(two+ " 2ps");
 		  System.out.println(one+ " 1ps");
 		  System.out.println("Your change is £"+accchange);
