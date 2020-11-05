@@ -1,4 +1,4 @@
-package how;
+package how.flowchartexamplejava;
 
 public class Main {
 	public static void sol(int a) {
