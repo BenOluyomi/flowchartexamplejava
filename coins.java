@@ -1,11 +1,9 @@
 package how.flowchartexamplejava;
 
 public class coins {
-	
-	
 	public static void main(String[] args) {
-		  int payed = 5000;
-		  int cost = 2345;
+		  int payed = 2000;
+		  int cost = 219;
 		  
 		  int change = payed - cost;
 		  
